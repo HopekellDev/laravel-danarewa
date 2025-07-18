@@ -89,6 +89,7 @@ This package is released under the MIT License.
 
 - GitHub: [HopekellDev](https://github.com/HopekellDev)
 - Email: hopekelltech@gmail.com
+- [Message Hopekell on Whatsapp](https://wa.me/message/M3DH3GBDHF35G1)
 
 ## Contributions & Issues
 Found a bug or have a feature request? Feel free to open an issue or submit a pull request on [GitHub](https://github.com/HopekellDev/laravel-danarewa).
