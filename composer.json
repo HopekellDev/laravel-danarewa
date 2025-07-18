@@ -1,0 +1,35 @@
+{
+  "name": "hopekelldev/laravel-danarewa",
+  "description": "Laravel wrapper for DanArewaTech API",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hope Ezenwa <Hopekell>",
+      "email": "hopekelltech@gmail.com",
+      "homepage": "https://hopekelltech.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^10.0|^11.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "HopekellDev\\DanArewa\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "HopekellDev\\DanArewa\\DanArewaServiceProvider"
+      ],
+      "aliases": {
+        "DanArewa": "HopekellDev\\DanArewa\\Facades\\DanArewa"
+      }
+    }
+  },
+  "minimum-stability": "stable"
+}
