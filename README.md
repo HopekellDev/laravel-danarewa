@@ -71,11 +71,11 @@ if ($response && ($response['status'] ?? false) === 'success') {
 Here’s an example of how to use the package in a Laravel controller:
 
 ```php
-use DanArewa;
+use HopekellDev\DanArewa\Facades\DanArewa;
 
 public function verifyNIN(Request $request)
 {
-    $response = DanArewa::make()->verifications()->ninVerification($request->nin);
+    $response = DanArewa::verifications()->ninVerification($request->nin);
 
     return response()->json($response);
 }
