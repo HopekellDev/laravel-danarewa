@@ -41,10 +41,10 @@ DANAREWA_BASE_URL=https://danarewatech.com.ng/api
 Here’s how to use the package to verify an NIN:
 
 ```php
-use DanArewa;
+use HopekellDev\DanArewa\Facades\DanArewa;
 
 // Example: Verify NIN
-$response = DanArewa::make()->verifications()->ninVerification('12345678901');
+$response = DanArewa::verifications()->ninVerification('12345678901');
 
 if ($response && ($response['status'] ?? false) === 'success') {
     $data = $response['data'];
