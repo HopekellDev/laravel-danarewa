@@ -71,7 +71,7 @@ if ($response && ($response['status'] ?? false) === 'success') {
 Here’s an example of how to use the package in a Laravel controller:
 
 ```php
-use HopekellDev\DanArewa\Facades\DanArewa;
+use HopekellDev\DanArewa\Facades\DanArewa; 
 
 public function verifyNIN(Request $request)
 {
